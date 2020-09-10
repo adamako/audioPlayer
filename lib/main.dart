@@ -1,3 +1,4 @@
+import 'package:audioplayer/widgets/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,14 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: Center(
-        child: Text('Hello'),
-      ),
-    );
+        title: 'Flutter Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+        ),
+        home: Home());
   }
 }
