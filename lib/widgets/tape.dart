@@ -159,5 +159,7 @@ class _TapeState extends State<Tape> with SingleTickerProviderStateMixin {
       _title = completeTitle;
       _status = TapeStatus.initial;
     });
+
+    play();
   }
 }
