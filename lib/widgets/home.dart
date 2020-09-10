@@ -1,16 +1,12 @@
 import 'package:audioplayer/widgets/tape.dart';
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget {
-  @override
-  _HomeState createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Tape()),
+    return Container(
+      color: Color(0xfff9bf44),
+      child: Center(child: Tape()),
     );
   }
 }
